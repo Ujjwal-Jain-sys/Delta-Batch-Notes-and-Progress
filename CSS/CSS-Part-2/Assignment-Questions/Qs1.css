@@ -1,0 +1,30 @@
+#MainTopic {
+    color: blue;
+}
+input:checked ~ label {
+    color: darkgreen;
+}
+button:hover {
+    color: blue;
+    background-color: yellow;
+}
+p:nth-of-type(odd)  {
+    color: yellow;
+}
+.para {
+    color: white;
+    background-color: cornflowerblue;
+}
+h1::first-letter {
+    color: red;
+}
+div button {
+    color: azure;
+    background-color: purple;
+}
+h1,h3,h5 {
+    font-family: georgia;
+}
+* {
+    text-align:center;
+}
